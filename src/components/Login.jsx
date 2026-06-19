@@ -8,7 +8,7 @@ const Login = () => {
   }
   return (
 
-    <div className="bg-linear-to-r from-blue-500 via-purple-500 to-white">
+    <div className="flex w-screen h-screen bg-linear-to-r from-blue-500 via-purple-500 to-white">
       
       <form className="border-2 border-cyan-200 rounded-lg flex flex-col items-center bg-indigo-900 text-white w-6/12 my-32 py-10 m-auto" onSubmit={(e)=> e.preventDefault()}>
       <h1 className="text-5xl font-bold my-4">{isSIgnedIn ? "Login" : "Sign up"}</h1>
